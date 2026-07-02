@@ -127,7 +127,7 @@ LOCAL_BOT_API_URL = os.environ.get("TELEGRAM_LOCAL_API_URL", "").rstrip("/")
 # TELEGRAM_LOCAL_API_URL is actually set and running — otherwise every
 # "video" download over 50 MB will fail to send.
 MAX_TELEGRAM_FILE_MB = int(
-    os.environ.get("TELEGRAM_MAX_FILE_MB", "2000" if LOCAL_BOT_API_URL else "200")
+    os.environ.get("TELEGRAM_MAX_FILE_MB", "2000" if LOCAL_BOT_API_URL else "50")
 )
 
 # Optional: path to a Netscape-format cookies.txt file, used to help yt-dlp
