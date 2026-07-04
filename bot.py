@@ -115,7 +115,7 @@ from telegram.ext import (
 # No .env file is used — this single file is all you need to run the bot.
 # You can still override it with an environment variable named
 # TELEGRAM_BOT_TOKEN if you prefer that instead of editing this file.
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8654433688:AAEqIwfGMc6FoIo939vjEXDtLyF7gNMZGu4")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8654433688:AAF-ZfRPN3LrZ3ma_jKoTguxTwyLKEVpLT4")
 
 # Optional: point this at a self-hosted Telegram Bot API server
 # (https://github.com/tdlib/telegram-bot-api) to raise the upload limit
